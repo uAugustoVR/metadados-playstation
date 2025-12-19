@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Função para categorizar avaliações em faixas específicas
-# As faixas são: Excelente (4.0-5.0), Bom (3.0-3.9), Regular (2.0-2.9), Ruim (0.0-1.9) e Sem Avaliação (nulo)
+# As faixas são: Excelente (4.0-5.0), Bom (3.0-3.9), Regular (2.0-2.9), Ruim (1.0-1.9) e Sem Avaliação (nulo)
 def rating_category(rating):
     if pd.isnull(rating):
         return 'Sem Avaliação'
