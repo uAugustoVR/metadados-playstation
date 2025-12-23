@@ -1,10 +1,10 @@
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from src import utils, data_utils
 import streamlit as st
 from pathlib import Path
 import matplotlib.pyplot as plt
+from src import utils, data_utils
 import matplotlib.ticker as mticker
 
 # --- Configuração do path ---
@@ -53,9 +53,7 @@ df_filtered = df_analysis[
         df_analysis['Release Year'].isin(year_filter) |
         df_analysis['Release Year'].isna()
     ) &
-    (
-        df_analysis['Genre List'].isin(genre_filter)
-    )
+    (df_analysis['Genre List'].isin(genre_filter))
 ]
 
 # --- Conteúdo Principal ---
@@ -68,8 +66,8 @@ explorando a relação entre avaliações, vendas, gêneros e estratégias de me
 """)
 
 # --- Métricas Principais (KPIs) ---
-total_games = df_filtered['Name'].nunique()
-average_rating = df_filtered['Rating'].median()
+total_games = data_utils.total_games(df_filtered)
+average_rating = data_utils.avg_rating(df_filtered)
 threshold = data_utils.p90_sales(df_filtered)
 
 st.subheader("Métricas Principais")
