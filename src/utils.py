@@ -26,3 +26,24 @@ def extract_year(df, column='Release Date'):
     )
     return df
 
+# Função para separação de gêneros
+def extract_genre(df, column='Genres'):
+    df['Genre List'] = (
+        df[column]
+        .fillna('Unknown')
+        .apply(lambda x: [g.strip() for g in x.split(',')] if x not in ('Unknown', None) else None)
+    )
+
+    # obter o número de gêneros por jogo antes do explode
+    df['Num Genres'] = df['Genre List'].apply(lambda x: len(x) if x is not None else 1)
+
+    # explodir para ter uma linha por gênero
+    df = df.explode('Genre List')
+
+    # dividir vendas igualmente entre os gêneros originais
+    df['Sales Fraction'] = df['Total Sales'] / df['Num Genres']
+
+    # removendo coluna "Genres" para evitar redundância
+    df = df.drop('Genres', axis= 1)
+
+    return df
