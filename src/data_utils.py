@@ -1,3 +1,6 @@
+import numpy as np
+
+# Funções para cálculo de métricas a partir do DataFrame filtrado
 def total_games(filtered_df):
     return filtered_df['Name'].nunique()
 
@@ -13,4 +16,3 @@ def p90_sales(filtered_df):
         return None
 
     return df_valid['Total Sales'].quantile(0.9)
-
