@@ -1,8 +1,5 @@
-import numpy as np
 import pandas as pd
-import seaborn as sns
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 # Função para criar o gráfico de dispersão Metascore vs Vendas Totais
 def graph_metascore_sales(df, threshold):
@@ -98,6 +95,7 @@ def graph_pct_high_quality(df_filtered):
 
     return fig
 
+# Função para criar o gráfico de evolução das vendas por gênero
 def graph_genres_sales_evolution(df, top_n=5):
     year_genre_valid = (
         df
@@ -158,6 +156,7 @@ def graph_genres_sales_evolution(df, top_n=5):
 
     return fig
 
+# Função para criar o gráfico de lançamentos por trimestre
 def graph_quarterly_releases(df):
     # --- Pré-processamento ---
     df_time = df[df['Release Date'] != 'Unknown Date'].copy()
@@ -206,6 +205,94 @@ def graph_quarterly_releases(df):
         uniformtext_minsize=10,
         uniformtext_mode='hide',
         xaxis={'categoryorder': 'array', 'categoryarray': list(quarter_labels.values())},
+        height=500,
+        margin=dict(l=40, r=40, t=80, b=40)
+    )
+
+    return fig
+
+# Função para criar o gráfico de avaliações por publisher
+def graph_publisher_score(df):
+    # --- Base consistente ---
+    df_pub = df[
+        (df['Has Score'] == 1) &
+        (df['Publisher'] != 'Unknown')
+    ].copy()
+
+    # --- Conta jogos por publisher ---
+    publisher_counts = df_pub.groupby('Publisher').size()
+
+    # ⚠️ Mesmo threshold do notebook (ex: >= 20 ou >= 30)
+    valid_publishers = publisher_counts[publisher_counts >= 20].index
+    df_pub = df_pub[df_pub['Publisher'].isin(valid_publishers)]
+
+    # --- Top 10 por mediana ---
+    top_publishers = (
+        df_pub
+        .groupby('Publisher')['Rating']
+        .median()
+        .sort_values(ascending=False)
+        .head(10)
+        .index
+    )
+
+    df_pub = df_pub[df_pub['Publisher'].isin(top_publishers)]
+
+    fig = px.box(
+        df_pub,
+        x='Publisher',
+        y='Rating',
+        category_orders={'Publisher': list(top_publishers)},
+        points='outliers',
+        title='Distribuição das Avaliações por Publisher (Top 10)'
+    )
+
+    # --- Ajustes visuais ---
+    fig.update_layout(
+        xaxis_title='Publisher',
+        yaxis_title='Avaliação Média (Rating)',
+        height=500,
+        xaxis_tickangle=-45,
+        margin=dict(l=40, r=40, t=80, b=40)
+    )
+
+    return fig
+
+def graph_publishers_by_generation(df):
+    # --- Base consistente ---
+    publisher_generation_counts = (
+        df[df['Publisher'] != 'Unknown']
+        .groupby(['Console', 'Publisher'])
+        .size()
+        .reset_index(name='Num Published')
+    )
+
+    # Publisher com mais lançamentos por console
+    top_publisher_by_generation = (
+        publisher_generation_counts.loc[
+            publisher_generation_counts
+            .groupby('Console')['Num Published']
+            .idxmax()
+        ]
+    )
+
+    # --- Gráfico ---
+    fig = px.bar(
+        top_publisher_by_generation,
+        x='Console',
+        y='Num Published',
+        text='Publisher',
+        title='Publisher com Maior Número de Lançamentos por Geração PlayStation'
+    )
+
+    # --- Ajustes visuais ---
+    fig.update_traces(
+        textposition='outside'
+    )
+
+    fig.update_layout(
+        xaxis_title='Console PlayStation',
+        yaxis_title='Número de Jogos Lançados',
         height=500,
         margin=dict(l=40, r=40, t=80, b=40)
     )

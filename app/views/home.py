@@ -1,5 +1,6 @@
 import streamlit as st
 
+# --- Resumo dos Insights ---
 st.markdown("""
 ## 🔑 Principais Insights
 

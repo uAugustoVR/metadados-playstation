@@ -1,5 +1,6 @@
 import streamlit as st
 
+# --- Definição das Páginas ---
 page_home = st.Page(
     page='views/home.py',
     title='Página Inicial',
@@ -25,7 +26,7 @@ page_publishers = st.Page(
     icon='🏢'
 )
 
-# Define as páginas
+# --- Navegação ---
 pg = st.navigation(
     {
         'Info': [page_home],
@@ -53,4 +54,5 @@ O objetivo é entender **o sucesso comercial da marca**, indo além da percepç�
 ---
 """)
 
+# --- Renderização da Página ---
 pg.run()

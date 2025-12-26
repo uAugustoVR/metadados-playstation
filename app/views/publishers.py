@@ -1,7 +1,5 @@
-import pandas as pd
 import seaborn as sns
 import streamlit as st
-from pathlib import Path
 import matplotlib.pyplot as plt
 from utils import utils, data_utils, plotly_utils
 
@@ -42,3 +40,19 @@ st.markdown('---')
 st.subheader("Gráficos")
 
 col_graph1, col_graph2 = st.columns(2)
+
+with col_graph1:
+    if not df_filtered.empty:
+        fig = plotly_utils.graph_publisher_score(df_filtered)
+        if fig:
+            st.plotly_chart(fig, width="stretch")
+    else:
+        st.info("Nenhum dado disponível para o gráfico.")
+
+with col_graph2:
+    if not df_filtered.empty:
+        fig = plotly_utils.graph_publishers_by_generation(df_filtered)
+        if fig:
+            st.plotly_chart(fig, width="stretch")
+    else:
+        st.info("Nenhum dado disponível para o gráfico.")
