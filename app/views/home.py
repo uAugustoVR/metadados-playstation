@@ -36,7 +36,7 @@ Ambos são viáveis quando bem executados e alinhados à estratégia do portfól
 ---
 
 ### 🚀 Threshold de Sucesso Comercial
-Apenas **10% dos jogos** superam aproximadamente **2.2 milhões de unidades vendidas**, evidenciando a **alta concentração do sucesso** no mercado de games.
+Apenas **10% dos jogos** superam aproximadamente **1.51 milhões de unidades vendidas**, evidenciando a **alta concentração do sucesso** no mercado de games.
 
 ---
 
