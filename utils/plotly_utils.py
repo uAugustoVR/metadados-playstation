@@ -59,7 +59,7 @@ def graph_pct_high_quality(df_filtered):
     catalog_quality = (
         df_valid
         .groupby('Console')
-        .apply(lambda x: (x['Rating'] >= 4.0).mean() * 100)
+        .apply((lambda x: (x['Rating'] >= 4.0).mean() * 100), include_groups=False)
         .to_frame('pct_high_quality')
         .reset_index()
     )
