@@ -31,11 +31,11 @@ Este projeto realiza uma **análise aprofundada** do ecossistema de jogos do Pla
 
 ### Objetivos de Negócio
 
-✅ Identificar padrões de sucesso além da aclamação da crítica  
-✅ Analisar a evolução dos gêneros e preferências do consumidor  
-✅ Comparar estratégias e métricas de desempenho de publishers  
-✅ Fornecer recomendações estratégicas baseadas em dados
-✅ Desenvolver um dashboard interativo para exploração do mercado 
+- [x] Identificar padrões de sucesso além da aclamação da crítica  
+- [x] Analisar a evolução dos gêneros e preferências do consumidor  
+- [x] Comparar estratégias e métricas de desempenho de publishers  
+- [x] Fornecer recomendações estratégicas baseadas em dados
+- [x] Desenvolver um dashboard interativo para exploração do mercado
 
 ---
 
