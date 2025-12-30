@@ -9,14 +9,14 @@
 
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
 - [Principais Descobertas](#-principais-descobertas)
-- [Descrição do Conjunto de Dados](#-descrição-do-conjunto-de-dados)
+- [Descrição do Dataset](#-descrição-do-dataset)
 - [Stack Técnico](#-stack-técnico)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Instalação e Configuração](#-instalação-e-configuração)
 - [Como Utilizar](#-como-utilizar)
 - [Análise e Insights](#-análise-e-insights)
 - [Recomendações Estratégicas](#-recomendações-estratégicas)
-- [Limitações e Trabalhos Futuros](#-limitações-e-trabalhos-futuros)
+- [Limitações e Trabalhos Futuros](#-limitacoes-e-trabalhos-futuros)
 - [Autor](#-autor)
 ---
 
@@ -138,7 +138,7 @@ Ambos funcionam quando aplicados de forma consistente.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Stack Técnico
 
 ### Processamento de Dados
 - **Python 3.10+**
@@ -251,7 +251,7 @@ Acesse em `http://localhost:...`
 
 ---
 
-## 🔍 Análises e Insights
+## 🔍 Análise e Insights
 
 ### A. Qualidade vs. Sucesso Comercial
 
@@ -414,7 +414,7 @@ Projeto disponibilizado para fins educacionais e de portfólio.
 **Augusto Rodrigues**
 
 - 🔗 GitHub: [@uAugustoVR](https://github.com/uAugustoVR)
-- 📧 Contato: [Augusto Rodrigues](mailto:augusto.ecomp@gmail.com)
+- 📧 LinkedIn: [Augusto Rodrigues](linkedin.com/in/augustovrodrigues)
 - 📌 Data do Projeto: 12/2025
 
 ---
