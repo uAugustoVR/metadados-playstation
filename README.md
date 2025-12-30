@@ -5,6 +5,11 @@
 
 ---
 
+📊 Dashboard interativo disponível em produção  
+👉 Veja a seção [Links do Projeto](#links-do-projeto)
+
+---
+
 ## 📋 Índice
 
 - [Visão Geral do Projeto](#visao-geral-do-projeto)
@@ -433,6 +438,14 @@ Projeto disponibilizado para fins educacionais e de portfólio.
 - 🔗 GitHub: [@uAugustoVR](https://github.com/uAugustoVR)
 - 📧 LinkedIn: [Augusto Rodrigues](https://www.linkedin.com/in/augustovrodrigues)
 - 📌 Data do Projeto: 12/2025
+
+---
+
+<a id="links-do-projeto"></a>
+## 🔗 Links do Projeto
+
+- 🚀 [Dashboard Interativo](https://metadados-playstation.streamlit.app/)
+- 📁 [Código-fonte](https://github.com/uAugustoVR/metadados-playstation)
 
 ---
 
