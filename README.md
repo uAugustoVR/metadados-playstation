@@ -254,7 +254,7 @@ Acesse em `http://localhost:8501`
 
 ## 🔍 Análise e Insights
 
-### A. Qualidade vs. Sucesso Comercial
+### 1. Qualidade vs. Sucesso Comercial
 
 **Resultados:**
 - Coeficiente de correlação de Spearman: **ρ = 0.29** (fraco a moderado)
@@ -265,7 +265,7 @@ Acesse em `http://localhost:8501`
 
 ---
 
-### B. Evolução dos Gêneros ao Longo das Gerações
+### 2. Evolução dos Gêneros ao Longo das Gerações
 
 **Principais Tendências:**
 - **Action** mantém continuamente uma participação de mercado superior a 25%
@@ -278,7 +278,7 @@ Acesse em `http://localhost:8501`
 
 ---
 
-### C. Impacto do Momento do lançamento
+### 3. Impacto do Momento do lançamento
 
 **Distribuição por trimestre:**
 | Trimestre  | Participação | Análise  |
@@ -290,7 +290,7 @@ Acesse em `http://localhost:8501`
 
 **Implicação Estratégica:** Coordenar lançamentos globais para a janela de Q4 quando possível.
 
-### D. Análise de Desempenho de Publisher
+### 4. Análise de Desempenho de Publisher
 
 **Líderes em Qualidade:**
 1. **Rockstar** – Avaliação mediana: 4,26 (menos títulos, estratégia ultra-premium)
@@ -306,7 +306,7 @@ Acesse em `http://localhost:8501`
 
 ---
 
-### E. Comparação de Gerações de Consoles
+### 5. Comparação de Gerações de Consoles
 
 **PS3 (2006-2017):**
 - 1.892 jogos | Avaliação mediana: 3,54 | Vendas totais: 839,66M
@@ -382,9 +382,9 @@ Acesse em `http://localhost:8501`
 
 ### Limitações atuais
 
-🔴 Dados de vendas do PS5 ainda imaturos  
+🔴 Dados de vendas do PS5 ainda imaturos
 🔴 DLCs e serviços de assinatura não considerados
-🔴 Falta de métricas de marketing e comunidade 
+🔴 Falta de métricas de marketing e comunidade
 
 ### Melhorias Futuras Recomendadas
 
@@ -429,4 +429,7 @@ Projeto disponibilizado para fins educacionais e de portfólio.
 ---
 
 **Última atualização:** Dezembro de 2025
+
 **Status:** ✅ Concluído
+
+---
