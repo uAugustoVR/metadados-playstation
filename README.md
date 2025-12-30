@@ -7,20 +7,21 @@
 
 ## 📋 Índice
 
-- [Visão Geral do Projeto](#-visão-geral-do-projeto)
-- [Principais Descobertas](#-principais-descobertas)
-- [Descrição do Dataset](#-descrição-do-dataset)
+- [Visão Geral do Projeto](#visao-geral-do-projeto)
+- [Principais Descobertas](#principais-descobertas)
+- [Descrição do Dataset](#descricao-do-dataset)
 - [Stack Técnico](#stack-tecnico)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Instalação e Configuração](#-instalação-e-configuração)
-- [Como Utilizar](#-como-utilizar)
-- [Análise e Insights](#-análise-e-insights)
-- [Recomendações Estratégicas](#-recomendações-estratégicas)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Instalação e Configuração](#instalacao-e-configuracao)
+- [Como Utilizar](#como-utilizar)
+- [Análise e Insights](#analise-e-insights)
+- [Recomendações Estratégicas](#recomendacoes-estrategicas)
 - [Limitações e Trabalhos Futuros](#limitacoes-trabalhos-futuros)
-- [Autor](#-autor)
+- [Autor](#autor)
 
 ---
 
+<a id="visao-geral-do-projeto"></a>
 ## 🎯 Visão Geral do Projeto
 
 Este projeto realiza uma **análise aprofundada** do ecossistema de jogos do PlayStation, explorando as relações entre **qualidade dos jogos (avaliações), desempenho comercial (vendas)** e **dinâmicas de mercado** ao longo de três gerações de consoles.
@@ -39,6 +40,7 @@ Este projeto realiza uma **análise aprofundada** do ecossistema de jogos do Pla
 
 ---
 
+<a id="principais-descobertas"></a>
 ## 📊 Principais Descobertas
 
 ### 1. **Correlação Fraca: Avaliação vs. Vendas (ρ ≈ 0,29)**
@@ -99,6 +101,7 @@ Ambos funcionam quando aplicados de forma consistente.
 
 ---
 
+<a id="descricao-do-dataset"></a>
 ## 📦 Descrição do Dataset
 
 **Fonte:** [Kaggle – PlayStation Sales and Metadata](https://www.kaggle.com/datasets/gvidalguiresse/playstation-sales-and-metadata-ps3ps4ps5)
@@ -130,12 +133,12 @@ Ambos funcionam quando aplicados de forma consistente.
 
 ### Pipeline de Limpeza
 
-✅ Remoção de colunas com >40% de dados ausentes (`platforms`, `metacritic`)  
-✅ Tratamento de avaliações inválidas (Rating = 0.0) como dados ausentes  
-✅ Extração do `Release Year` a partir de `Release Date`  
-✅ Expansão de `Genres` para análise granular  
-✅ Criação do indicador binário `Has Score`  
-✅ Categorização das avaliações em faixas (1.0–1.9, 2.0–2.9, etc.)
+- [x] Remoção de colunas com +40% de dados ausentes (`platforms`, `metacritic`)  
+- [x] Tratamento de avaliações inválidas (Rating = 0.0) como dados ausentes  
+- [x] Extração do `Release Year` a partir de `Release Date`  
+- [x] Expansão de `Genres` para análise granular  
+- [x] Criação do indicador binário `Has Score`  
+- [x] Categorização das avaliações em faixas (1.0–1.9, 2.0–2.9, etc.)
 
 ---
 
@@ -163,6 +166,7 @@ Ambos funcionam quando aplicados de forma consistente.
 
 ---
 
+<a id="estrutura-do-projeto"></a>
 ## 📁 Estrutura do Projeto
 
 ```
@@ -198,6 +202,7 @@ metadados-playstation/
 
 ---
 
+<a id="instalacao-e-configuracao"></a>
 ## 🚀 Instalação e Configuração
 
 ### Pré-requisitos
@@ -237,6 +242,7 @@ python -c "import pandas, streamlit, plotly; print('✅ Todas as dependências i
 
 ---
 
+<a id="como-utilizar"></a>
 ## 📊 Como Utilizar
 
 ### Dashboard Interativo (Recomendado)
@@ -253,6 +259,7 @@ Acesse em `http://localhost:8501`
 
 ---
 
+<a id="analise-e-insights"></a>
 ## 🔍 Análise e Insights
 
 ### 1. Qualidade vs. Sucesso Comercial
@@ -325,6 +332,7 @@ Acesse em `http://localhost:8501`
 - Política de exclusividade do PS5 não clara; portabilidade entre gerações comum
 ---
 
+<a id="recomendacoes-estrategicas"></a>
 ## 💡 Recomendações Estratégicas
 
 ### Para Publishers
@@ -397,6 +405,7 @@ Acesse em `http://localhost:8501`
 
 ---
 
+<a id="referencias-e-fontes-de-dados"></a>
 ## 📚 Referências e fontes de dados
 
 - **Dataset:** [Kaggle – PlayStation Sales and Metadata](https://www.kaggle.com/datasets/gvidalguiresse/playstation-sales-and-metadata-ps3ps4ps5)
@@ -406,12 +415,14 @@ Acesse em `http://localhost:8501`
 
 ---
 
+<a id="licenca"></a>
 ## 📄 Licença
 
 Projeto disponibilizado para fins educacionais e de portfólio.
 
 ---
 
+<a id="autor"></a>
 ## 👤 Autor
 
 **Augusto Rodrigues**
