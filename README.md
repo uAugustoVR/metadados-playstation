@@ -16,7 +16,7 @@
 - [Como Utilizar](#-como-utilizar)
 - [Análise e Insights](#-análise-e-insights)
 - [Recomendações Estratégicas](#-recomendações-estratégicas)
-- [Limitações e Trabalhos Futuros](#-limitações-e-trabalhos-futuros)
+- [Limitações e Trabalhos Futuros](#-limita%C3%A7%C3%B5es-e-trabalhos-futuros)
 - [Autor](#-autor)
 
 ---
@@ -293,14 +293,14 @@ Acesse em `http://localhost:8501`
 ### 4. Análise de Desempenho de Publisher
 
 **Líderes em Qualidade:**
-1. **Rockstar** – Avaliação mediana: 4,26 (menos títulos, estratégia ultra-premium)
-2. **Atlus** – Avaliação mediana: 4,10 (público de nicho, mas fiel)
-3. **Bethesda** – Avaliação mediana: 4,02 (forte foco narrativo)
+- **Rockstar** – Avaliação mediana: 4,26 (menos títulos, estratégia ultra-premium)
+- **Atlus** – Avaliação mediana: 4,10 (público de nicho, mas fiel)
+- **Bethesda** – Avaliação mediana: 4,02 (forte foco narrativo)
 
 **Líderes em Volume:**
-1. **Activision** – 205,9 milhões de vendas totais (franquias: CoD , Diablo, WoW)
-2. **EA** – 187,3 milhões em vendas totais (franquias: FIFA, Madden, Battlefield)
-3. **Sega** – 105,2 milhões de vendas totais (catalogo diversificado)
+- **Activision** – 205,9 milhões de vendas totais (franquias: CoD , Diablo, WoW)
+- **EA** – 187,3 milhões em vendas totais (franquias: FIFA, Madden, Battlefield)
+- **Sega** – 105,2 milhões de vendas totais (catalogo diversificado)
 
 **Observação:** Os dados indicam que não existe um modelo único vencedor; o sucesso está na consistência estratégica e na coerência entre volume, qualidade e posicionamento de mercado.
 
