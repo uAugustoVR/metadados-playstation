@@ -10,13 +10,13 @@
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
 - [Principais Descobertas](#-principais-descobertas)
 - [Descrição do Dataset](#-descrição-do-dataset)
-- [Stack Técnico](#-stack-tecnico)
+- [Stack Técnico](#-stack-técnico)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Instalação e Configuração](#-instalação-e-configuração)
 - [Como Utilizar](#-como-utilizar)
 - [Análise e Insights](#-análise-e-insights)
 - [Recomendações Estratégicas](#-recomendações-estratégicas)
-- [Limitações e Trabalhos Futuros](#-limitacoes-e-trabalhos-futuros)
+- [Limitações e Trabalhos Futuros](#-limitações-e-trabalhos-futuros)
 - [Autor](#-autor)
 ---
 
