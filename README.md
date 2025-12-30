@@ -174,6 +174,7 @@ metadados-playstation/
 │
 ├── README.md                                  # Documentação (este arquivo)
 ├── requirements.txt                           # Dependências do Python
+├── pyproject.toml                             # Configuração dos pacotes
 │
 ├── data/
 │   ├── raw/
@@ -225,7 +226,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ### Etapa 3: Instalar as dependências
 ```bash
 pip install -r requirements.txt
-pip install -e .    # Instala o pacote local em modo editável
+```
+```md
+> 💡 Nota: o projeto inclui um pacote Python local (`utils`) que é instalado automaticamente via pip.
 ```
 
 ### Etapa 4: Configurar o ambiente (Opcional)

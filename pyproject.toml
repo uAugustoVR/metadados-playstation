@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "metadados-playstation"
+version = "1.0.0"
+description = "Análise de vendas e metadados do ecossistema PlayStation com dashboard interativo"
+readme = "README.md"
+requires-python = ">=3.10"
+
+authors = [
+  { name = "Augusto Rodrigues" }
+]
+
+dependencies = [
+  "pandas",
+  "numpy",
+  "plotly",
+  "streamlit",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["utils"]
