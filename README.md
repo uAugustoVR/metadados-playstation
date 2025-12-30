@@ -10,7 +10,7 @@
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
 - [Principais Descobertas](#-principais-descobertas)
 - [Descrição do Dataset](#-descrição-do-dataset)
-- [Stack Técnico](#-stack-técnico)
+- [Stack Técnico](#-stack-tecnico)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Instalação e Configuração](#-instalação-e-configuração)
 - [Como Utilizar](#-como-utilizar)
