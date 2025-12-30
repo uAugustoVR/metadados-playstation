@@ -10,7 +10,7 @@
 - [Visão Geral do Projeto](#-visão-geral-do-projeto)
 - [Principais Descobertas](#-principais-descobertas)
 - [Descrição do Dataset](#-descrição-do-dataset)
-- [Stack Técnico](#-stack-técnico)
+- [Stack Técnico](#-stack-tecnico)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Instalação e Configuração](#-instalação-e-configuração)
 - [Como Utilizar](#-como-utilizar)
@@ -18,6 +18,7 @@
 - [Recomendações Estratégicas](#-recomendações-estratégicas)
 - [Limitações e Trabalhos Futuros](#-limitações-e-trabalhos-futuros)
 - [Autor](#-autor)
+
 ---
 
 ## 🎯 Visão Geral do Projeto
@@ -241,7 +242,7 @@ python -c "import pandas, streamlit, plotly; print('✅ Todas as dependências i
 ```bash
 streamlit run app/app.py
 ```
-Acesse em `http://localhost:...`
+Acesse em `http://localhost:8501`
 
 **Funcionalidades:**
 - Navegação por páginas (Página Inicial → Visão Geral → Mercado & Tendências → Publishers)
@@ -414,7 +415,7 @@ Projeto disponibilizado para fins educacionais e de portfólio.
 **Augusto Rodrigues**
 
 - 🔗 GitHub: [@uAugustoVR](https://github.com/uAugustoVR)
-- 📧 LinkedIn: [Augusto Rodrigues](linkedin.com/in/augustovrodrigues)
+- 📧 LinkedIn: [Augusto Rodrigues](https://www.linkedin.com/in/augustovrodrigues)
 - 📌 Data do Projeto: 12/2025
 
 ---
