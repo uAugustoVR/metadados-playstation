@@ -16,7 +16,7 @@
 - [Como Utilizar](#-como-utilizar)
 - [Análise e Insights](#-análise-e-insights)
 - [Recomendações Estratégicas](#-recomendações-estratégicas)
-- [Limitações e Trabalhos Futuros](#-limita%C3%A7%C3%B5es-e-trabalhos-futuros)
+- [Limitações e Trabalhos Futuros](#--limitações-e-trabalhos-futuros)
 - [Autor](#-autor)
 
 ---
@@ -139,6 +139,7 @@ Ambos funcionam quando aplicados de forma consistente.
 
 ---
 
+<a id="stack-tecnico"></a>
 ## 🛠️ Stack Técnico
 
 ### Processamento de Dados
@@ -378,20 +379,21 @@ Acesse em `http://localhost:8501`
    - Ação domina globalmente; estratégia varia por região
 ---
 
+<a id="limitacoes-trabalhos-futuros"></a>
 ## ⚠️ Limitações e Trabalhos Futuros
 
 ### Limitações atuais
 
-🔴 Dados de vendas do PS5 ainda imaturos
-🔴 DLCs e serviços de assinatura não considerados
-🔴 Falta de métricas de marketing e comunidade
+ - Dados de vendas do PS5 ainda imaturos
+ - DLCs e serviços de assinatura não considerados
+ - Falta de métricas de marketing e comunidade
 
 ### Melhorias Futuras Recomendadas
 
-✨ Previsão de Séries Temporais
-✨ Segmentação Geográfica
-✨ Análise de Redes
-✨ Modelos causais
+ - Previsão de Séries Temporais
+ - Segmentação Geográfica
+ - Análise de Redes
+ - Modelos causais
 
 ---
 
