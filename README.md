@@ -225,7 +225,7 @@ cd metadados-playstation
 ### Etapa 2: Criar Ambiente Virtual
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
 ### Etapa 3: Instalar as dependências
