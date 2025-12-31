@@ -121,7 +121,7 @@ Ambos funcionam quando aplicados de forma consistente.
 | **Consoles** | PS3, PS4, PS5 |
 | **Período** | Nov 2006 – Oct 2025 |
 | **Gêneros Únicos** | 19 |
-| **Distribuição de Jogos** | PS4: 1.991 | PS3: 1.892 | PS5: 1.080 |
+| **Distribuição de Jogos** | PS4: 1.991/ PS3: 1.892/ PS5: 1.080 |
 
 ### Principais Variáveis
 
